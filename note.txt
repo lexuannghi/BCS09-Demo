@@ -5,5 +5,10 @@ Note lại ghi chú: git commit -m "Lần đầu sử dụng git"
 Lịch sử đã note lại: git log
 Kiểm tra file đang nằm trên staging area: git status
 Liên kết repository với github: git remote add origin https://github.com/lexuannghi/BCS09-Demo.git (https: đường dẫn tài khoản muốn liên kết ở trang github)
-Đẩy source code lên github lần đầu tiên: git push -u origin master (master là tên nhánh coi ở dưới góc trái vscode)
+Đẩy source code từ staging area lên github lần đầu tiên: git push -u origin master (master là tên nhánh coi ở dưới góc trái vscode)
 Câu lệnh đẩy code lên github: git push
+
+Tóm tắt 3 bước đẩy code lên github:
+Bước 1: git add .
+Bước 2: git commit -m "đây là lịch sử thay đổi hoặc update thêm cho code"
+Bước 3: chạy 1 trong 2 câu lệnh: git push -u origin master (khi up code lần đầu), câu lệnh git push khi up code từ lần 2 trở đi

@@ -1,2 +1,6 @@
 Câu lệnh khởi tạo Local repository: git init
-Add 1 file nào đó dùng câu lệnh: git add (đây là file muốn đẩy)
+Đẩy 1 file lên staging area dùng câu lệnh: git add (tên file muốn đẩy)
+Đẩy tất cả file lên staging area dùng câu lệnh: git add .
+Note lại ghi chú: git commit -m "Lần đầu sử dụng git"
+Lịch sử đã note lại: git log
+Kiểm tra file đang nằm trên staging area: git status

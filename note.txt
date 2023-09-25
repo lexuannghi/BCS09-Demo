@@ -18,7 +18,7 @@ câu lệnh git push khi up code từ lần 2 trở đi
 
 Để vào 1 dự án code:
 Bước 1: Tạo file mới
-Bước 2: Mở file qua VScode
+Bước 2: Mở file bằng VScode
 Bước 3: Mở terminal
 Bước 4: Nhập git clone (Tên đường dẫn của dự án đó trên github)
 

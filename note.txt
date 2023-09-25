@@ -34,3 +34,6 @@ Cách tạo nhánh để add cho từng người:
 - Cách chuyển nhánh: git checkout devA (devA tên nhánh muốn chuyển)
 - Tạo nhánh và chuyển nhánh vừa tạo: git checkout -b devB
 
+Trường hợp không muốn up file nào đó lên github:
+- Tạo 1 file bên trong dự án tên: .gitignore
+- Sau khi tạo thì vào file .gitignore gõ tên file không muốn up lên github save lại là được

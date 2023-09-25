@@ -13,7 +13,16 @@ Tổng hợp các bước cài đặt và update code lên git
 * Tóm tắt 3 bước đẩy code lên github:
 + Bước 1: git add .
 + Bước 2: git commit -m "đây là lịch sử thay đổi hoặc update thêm cho code"
-+ Bước 3: chạy 1 trong 2 câu lệnh: git push -u origin master (khi up code lần đầu), câu lệnh git push khi up code từ lần 2 trở đi
++ Bước 3: chạy 1 trong 2 câu lệnh: git push -u origin master (khi up code lần đầu), 
+câu lệnh git push khi up code từ lần 2 trở đi
 
-Lệnh để kết nối local repository và remote repository 
+Để vào 1 dự án code:
+Bước 1: Tạo file mới
+Bước 2: Mở file qua VScode
+Bước 3: Mở terminal
+Bước 4: Nhập git clone (Tên đường dẫn của dự án đó trên github)
+
+Lệnh để kết nối local repository và remote repository: 
 - git remote add origin (đường dẫn tới remote)
+Lấy ngược code đã update trên github về file:
+- git pull origin master

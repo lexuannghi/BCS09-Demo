@@ -13,7 +13,7 @@ Tổng hợp các bước cài đặt và update code lên git:
 * Tóm tắt 3 bước đẩy code lên github:
 + Bước 1: git add .
 + Bước 2: git commit -m "đây là lịch sử thay đổi hoặc update thêm cho code"
-+ Bước 3: chạy 1 trong 2 câu lệnh: git push -u origin master (khi up code lần đầu), 
++ Bước 3: chạy 1 trong 2 câu lệnh: git push -u origin master (khi up code lần đầu phải gõ lệnh này, master là nhánh muốn đẩy code), 
 câu lệnh git push khi up code từ lần 2 trở đi
 
 Lệnh để kết nối local repository và remote repository: 

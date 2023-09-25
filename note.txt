@@ -13,7 +13,7 @@ Tổng hợp các bước cài đặt và update code lên git:
 * Tóm tắt 3 bước đẩy code lên github:
 + Bước 1: git add .
 + Bước 2: git commit -m "đây là lịch sử thay đổi hoặc update thêm cho code"
-+ Bước 3: chạy 1 trong 2 câu lệnh: git push -u origin master (khi up code lần đầu), 
++ Bước 3: chạy 1 trong 2 câu lệnh: git push -u origin master (khi up code lần đầu phải gõ lệnh này, master là nhánh muốn đẩy code), 
 câu lệnh git push khi up code từ lần 2 trở đi
 
 Lệnh để kết nối local repository và remote repository: 
@@ -26,4 +26,11 @@ Lấy ngược code đã update trên github về file máy tính:
 Bước 1: Tạo file mới
 Bước 2: Mở file bằng VScode
 Bước 3: Mở terminal
-Bước 4: Nhập git clone https://github.com/lexuannghi/BCS09-Demo.git (Tên đường dẫn của dự án đó trên github)
+Bước 4: Nhập: git clone https://github.com/lexuannghi/BCS09-Demo.git (Tên đường dẫn của dự án đó trên github)
+
+Cách tạo nhánh để add cho từng người:
+- Tạo nhánh: git branch devA (devA là tên nhánh muốn tạo)
+- Kiểm tra nhánh: git branch
+- Cách chuyển nhánh: git checkout devA (devA tên nhánh muốn chuyển)
+- Tạo nhánh và chuyển nhánh vừa tạo: git checkout -b devB
+

@@ -8,7 +8,7 @@ Tổng hợp các bước cài đặt và update code lên git:
 - Kiểm tra file đang nằm trên staging area: git status
 - Liên kết repository với github: git remote add origin https://github.com/lexuannghi/BCS09-Demo.git (https: đường dẫn tài khoản muốn liên kết ở trang github)
 - Đẩy source code từ staging area lên github lần đầu tiên: git push -u origin master (master là tên nhánh coi ở dưới góc trái vscode)
-- Câu lệnh đẩy code lên github: git push
+- Câu lệnh đẩy code lên github từ lần thứ 2 trở đi: git push
 
 * Tóm tắt 3 bước đẩy code lên github:
 + Bước 1: git add .

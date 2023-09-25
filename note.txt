@@ -26,4 +26,11 @@ Lấy ngược code đã update trên github về file máy tính:
 Bước 1: Tạo file mới
 Bước 2: Mở file bằng VScode
 Bước 3: Mở terminal
-Bước 4: Nhập git clone https://github.com/lexuannghi/BCS09-Demo.git (Tên đường dẫn của dự án đó trên github)
+Bước 4: Nhập: git clone https://github.com/lexuannghi/BCS09-Demo.git (Tên đường dẫn của dự án đó trên github)
+
+Cách tạo nhánh để add cho từng người:
+- Tạo nhánh: git branch devA (devA là tên nhánh muốn tạo)
+- Kiểm tra nhánh: git branch
+- Cách chuyển nhánh: git checkout devA (devA tên nhánh muốn chuyển)
+- Tạo nhánh và chuyển nhánh vừa tạo: git checkout -b devB
+

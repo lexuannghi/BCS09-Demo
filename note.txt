@@ -20,7 +20,7 @@ Lệnh để kết nối local repository và remote repository:
 - git remote add origin (đường dẫn tới remote)
 
 Lấy ngược code đã update trên github về file máy tính:
-- git pull origin master (master là tên nhánh)
+- git pull origin master (master là tên nhánh mà mình muốn lấy code của nhánh đó về nhánh của mình)
 
 Để vào 1 dự án code đã có trên github:
 Bước 1: Tạo file mới

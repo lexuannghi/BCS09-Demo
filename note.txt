@@ -1,4 +1,4 @@
-Tổng hợp các bước cài đặt và update code lên git 
+Tổng hợp các bước cài đặt và update code lên git:
 
 - Câu lệnh khởi tạo Local repository: git init
 - Đẩy 1 file lên staging area dùng câu lệnh: git add (tên file muốn đẩy)
@@ -19,11 +19,11 @@ câu lệnh git push khi up code từ lần 2 trở đi
 Lệnh để kết nối local repository và remote repository: 
 - git remote add origin (đường dẫn tới remote)
 
-Lấy ngược code đã update trên github về file:
-- git pull origin master
+Lấy ngược code đã update trên github về file máy tính:
+- git pull origin master (master là tên nhánh)
 
-Để vào 1 dự án code:
+Để vào 1 dự án code đã có trên github:
 Bước 1: Tạo file mới
 Bước 2: Mở file bằng VScode
 Bước 3: Mở terminal
-Bước 4: Nhập git clone (Tên đường dẫn của dự án đó trên github)
+Bước 4: Nhập git clone https://github.com/lexuannghi/BCS09-Demo.git (Tên đường dẫn của dự án đó trên github)
